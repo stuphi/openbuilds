@@ -10,20 +10,20 @@ module v_slot(sec, len){
   }
 }
 
-translate([200,0,0])
-v_slot(sec=2080, len=250);
 
-translate([100,0,0])
-v_slot(sec=2040, len=250);
-
-translate([50,0,0])
-v_slot(sec=4040, len=250);
 v_slot(sec=2020, len=250);
 
-translate([450,0,40])
-rotate([90,90,0])
-v_slot(sec="c-beam", len=1000);
+translate([0,40,0])
+v_slot(sec=2040, len=250);
 
-translate([-450,0,40])
-rotate([90,-90,0])
-v_slot(sec="c-beam", len=1000);
+translate([0,80,0])
+v_slot(sec=2060, len=250);
+
+translate([0,120,0])
+v_slot(sec=2080, len=250);
+
+translate([0,160,0])
+v_slot(sec=4040, len=250);
+
+translate([0,210,0])
+v_slot(sec="c-beam", len=250);
